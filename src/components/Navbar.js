@@ -51,7 +51,7 @@ const Navbar = () => {
                 onClick={(e) => {
                   e.preventDefault()
                   if (window.location.pathname !== "/") {
-                    window.location.href = "/"
+                    window.location.href = "/roi-kids/#ekipi-yne"
                   } else {
                   scrollToSection("ekipi-yne")}
                 }}>Ekipi ynë</a>
@@ -61,7 +61,7 @@ const Navbar = () => {
                 onClick={(e) => {
                   e.preventDefault()
                   if (window.location.pathname !== "/") {
-                    window.location.href = "/"
+                    window.location.href = "/#profesoret-tane"
                   } else {
                   scrollToSection("profesoret-tane")}
                 }}>Ligjëruesit</a>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 onClick={(e) => {
                   e.preventDefault()
                   if (window.location.pathname !== "/") {
-                    window.location.href = "/"
+                    window.location.href = "/#rreth-nesh"
                   } else {
                   scrollToSection("rreth-nesh")}
                 }}>Rreth nesh</a>
