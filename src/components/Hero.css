@@ -1,0 +1,154 @@
+.hero {
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  padding: 80px 0;
+  gap: 40px;
+  line-height: 1.5;
+  background: url('../assets/hero-bg.jpg') no-repeat center center ;
+  background-size: cover;
+  height: 100vh;
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 44px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.cta-text {
+  font-weight: 600;
+  font-size: 1.2rem; 
+  margin-bottom: 30px;
+}
+
+.btn-register {
+  display: inline-block;
+  background-color: #fff;
+  color: #301dc2;
+  padding: 12px 25px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn-register:hover {
+  background-color: #301dc2;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.application-form {
+  flex: 1;
+  max-width: 400px;
+  background-color:#0060BF75 ;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.application-form h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group select {
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 15px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #fff;
+  color: #ff6347;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #ff6347;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .application-form {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+}
+

@@ -1,0 +1,45 @@
+.teacher-member-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teacher-member-image-container {
+  background-color: white;
+  border-radius: 8px; 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.teacher-member-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.teacher-member-name {
+  color: #5F5F5F;
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.teacher-member-title {
+  color: #BABABA;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.teacher-member-description {
+  color: #1D1D1D;
+  font-size: 15px;
+  font-weight: 450;
+  text-align: center;
+  line-height: 1;
+  max-width: 250px;
+}

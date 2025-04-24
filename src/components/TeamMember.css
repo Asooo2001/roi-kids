@@ -1,0 +1,45 @@
+.member-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-image-container {
+  background-color: white;
+  border-radius: 8px; 
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.member-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.member-name {
+  color: white;
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.member-title {
+  color: white;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.member-description {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1;
+  max-width: 250px;
+}
