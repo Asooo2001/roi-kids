@@ -8,7 +8,7 @@ import AboutUs from "./components/AboutUs"
 import TeamSection from "./components/TeamSection"
 import Teachers from "./components/Teachers"
 import TestimonialSlider from "./components/TestimonialSlider"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
 import ContactPage from "./pages/ContactPage"
 
 
