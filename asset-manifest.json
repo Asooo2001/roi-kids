@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/roi-kids/static/css/main.5262852f.css",
+    "main.js": "/roi-kids/static/js/main.e4bb10da.js",
+    "static/media/diona.png": "/roi-kids/static/media/diona.0f8ed71d1afe2079179e.png",
+    "static/media/anila.png": "/roi-kids/static/media/anila.d882ba8ffde243fbfe50.png",
+    "static/media/fatbardha.png": "/roi-kids/static/media/fatbardha.f60c0920b1c203510117.png",
+    "static/media/hero-bg.jpg": "/roi-kids/static/media/hero-bg.31dc3ac855133d7c42dd.jpg",
+    "static/media/vesa.png": "/roi-kids/static/media/vesa.90e1d4624eb591ac0364.png",
+    "static/media/klevjan.png": "/roi-kids/static/media/klevjan.7ee2e2cd1c1821807934.png",
+    "static/media/artim.png": "/roi-kids/static/media/artim.c4755a0d12de2c8197a7.png",
+    "static/media/gentijana.png": "/roi-kids/static/media/gentijana.f49eb504b6185aa72655.png",
+    "static/media/shyhrete.png": "/roi-kids/static/media/shyhrete.b4d4829d5ad3c752b0d3.png",
+    "static/media/venera.png": "/roi-kids/static/media/venera.36a0af6f2f6e03e79f1c.png",
+    "static/media/erion.png": "/roi-kids/static/media/erion.9e955e7981b5aee192da.png",
+    "static/media/milot.png": "/roi-kids/static/media/milot.429cbea6ba5887f83c47.png",
+    "static/media/arb.png": "/roi-kids/static/media/arb.e8b89bbe6b5bf7069789.png",
+    "static/media/floriant.png": "/roi-kids/static/media/floriant.2ae3122ae987d5132421.png",
+    "static/media/blerta.png": "/roi-kids/static/media/blerta.222c43da129f31e6a58b.png",
+    "static/media/liri.png": "/roi-kids/static/media/liri.53be5030ec6f448dc314.png",
+    "static/media/teuta.png": "/roi-kids/static/media/teuta.64f94e4179cc9fa12072.png",
+    "static/media/valon.png": "/roi-kids/static/media/valon.9a04cfbfbf91ad49e9ee.png",
+    "static/media/taulant.png": "/roi-kids/static/media/taulant.5c5cced74c7d21d013b9.png",
+    "static/media/anisa.png": "/roi-kids/static/media/anisa.2bead31b34b186b55b59.png",
+    "static/media/balkan-map.png": "/roi-kids/static/media/balkan-map.4f403fdf9c1e72760130.png",
+    "static/media/logo.png": "/roi-kids/static/media/logo.dfc1456e033f65721029.png",
+    "static/media/handshake-bg.jpg": "/roi-kids/static/media/handshake-bg.9492b56ff7eb15e2df5d.jpg",
+    "index.html": "/roi-kids/index.html",
+    "main.5262852f.css.map": "/roi-kids/static/css/main.5262852f.css.map",
+    "main.e4bb10da.js.map": "/roi-kids/static/js/main.e4bb10da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5262852f.css",
+    "static/js/main.e4bb10da.js"
+  ]
+}
