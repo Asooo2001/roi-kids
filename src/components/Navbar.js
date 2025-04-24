@@ -51,7 +51,7 @@ const Navbar = () => {
                 onClick={(e) => {
                   e.preventDefault()
                   if (window.location.pathname !== "/") {
-                    window.location.href = "/roi-kids/#ekipi-yne"
+                    window.location.href = "#ekipi-yne"
                   } else {
                   scrollToSection("ekipi-yne")}
                 }}>Ekipi ynë</a>
@@ -138,4 +138,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
