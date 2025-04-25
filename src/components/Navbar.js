@@ -1,36 +1,39 @@
-"use client"
-
-import { useState } from "react"
-import {Link} from "react-router-dom" 
-import logo from "../assets/logo.png"
-import "./Navbar.css"
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
+import "./Navbar.css";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   const scrollToSection = (id) => {
-    if (window.location.pathname === "/"){
-    const element = document.getElementById(id)
+    const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
+      element.scrollIntoView({ behavior: "smooth" });
     }
-  }
-    if (isOpen) {
-      setIsOpen(false)
+  };
+
+  const handleSectionClick = (e, id) => {
+    e.preventDefault();
+    if (!window.location.hash.includes("#/")) {
+      window.location.hash = `#/#${id}`;
+    } else {
+      scrollToSection(id);
     }
-  }
+    if (isOpen) setIsOpen(false);
+  };
 
   return (
     <nav className="navbar">
       <div className="container">
         <div className="navbar-content">
-          <div className="logo">  
-            <Link to = "/">
-              <img src={logo} alt="ROI Kids Logo" />          
+          <div className="logo">
+            <Link to="/">
+              <img src={logo} alt="ROI Kids Logo" />
             </Link>
           </div>
 
@@ -42,39 +45,24 @@ const Navbar = () => {
 
           <ul className={`nav-links ${isOpen ? "active" : ""}`}>
             <li>
-            <Link to="/" className={window.location.pathname === "/" ? "active" : ""}>
+              <Link to="/" className={window.location.pathname === "/" ? "active" : ""}>
                 Ballina
               </Link>
             </li>
             <li>
-              <a href="#ekipi-yne"
-                onClick={(e) => {
-                  e.preventDefault()
-                  if (window.location.pathname !== "/") {
-                    window.location.href = "#ekipi-yne"
-                  } else {
-                  scrollToSection("ekipi-yne")}
-                }}>Ekipi ynë</a>
+              <a href="#ekipi-yne" onClick={(e) => handleSectionClick(e, "ekipi-yne")}>
+                Ekipi ynë
+              </a>
             </li>
             <li>
-              <a href="#profesoret-tane"
-                onClick={(e) => {
-                  e.preventDefault()
-                  if (window.location.pathname !== "/") {
-                    window.location.href = "/#profesoret-tane"
-                  } else {
-                  scrollToSection("profesoret-tane")}
-                }}>Ligjëruesit</a>
+              <a href="#profesoret-tane" onClick={(e) => handleSectionClick(e, "profesoret-tane")}>
+                Ligjëruesit
+              </a>
             </li>
             <li>
-              <a href="#rreth-nesh"
-                onClick={(e) => {
-                  e.preventDefault()
-                  if (window.location.pathname !== "/") {
-                    window.location.href = "/#rreth-nesh"
-                  } else {
-                  scrollToSection("rreth-nesh")}
-                }}>Rreth nesh</a>
+              <a href="#rreth-nesh" onClick={(e) => handleSectionClick(e, "rreth-nesh")}>
+                Rreth nesh
+              </a>
             </li>
             <li className="dropdown">
               <a href="#">
@@ -120,9 +108,9 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-            <Link to="/contact" className={window.location.pathname === "/contact" ? "active" : ""}>
-                  Na kontaktoni
-                  </Link>
+              <Link to="/contact" className={window.location.pathname === "/contact" ? "active" : ""}>
+                Na kontaktoni
+              </Link>
             </li>
           </ul>
 
@@ -134,7 +122,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;
