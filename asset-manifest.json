@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/roi-kids/static/css/main.5262852f.css",
-    "main.js": "/roi-kids/static/js/main.5b215bd2.js",
+    "main.js": "/roi-kids/static/js/main.e8e84232.js",
     "static/media/diona.png": "/roi-kids/static/media/diona.0f8ed71d1afe2079179e.png",
     "static/media/anila.png": "/roi-kids/static/media/anila.d882ba8ffde243fbfe50.png",
     "static/media/fatbardha.png": "/roi-kids/static/media/fatbardha.f60c0920b1c203510117.png",
@@ -27,10 +27,10 @@
     "static/media/handshake-bg.jpg": "/roi-kids/static/media/handshake-bg.9492b56ff7eb15e2df5d.jpg",
     "index.html": "/roi-kids/index.html",
     "main.5262852f.css.map": "/roi-kids/static/css/main.5262852f.css.map",
-    "main.5b215bd2.js.map": "/roi-kids/static/js/main.5b215bd2.js.map"
+    "main.e8e84232.js.map": "/roi-kids/static/js/main.e8e84232.js.map"
   },
   "entrypoints": [
     "static/css/main.5262852f.css",
-    "static/js/main.5b215bd2.js"
+    "static/js/main.e8e84232.js"
   ]
 }
